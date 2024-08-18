@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.6.3"
+  },
+  "name": "bot",
+  "version": "1.0.1",
+  "description": "eu que fiz",
+  "main": "bot.js",
+  "scripts": {
+    "test": "avaliar"
+  },
+  "author": "",
+  "license": "ISC"
+}
