@@ -10,7 +10,6 @@ function formatNickname(user) {
   return `${user.id} - ${user.name} ${user.name2 || ''}`;
 }
 
-// Função para atualizar os apelidos
 async function updateNicknames() {
   try {
     // Cria a conexão com o banco de dados
@@ -24,10 +23,10 @@ async function updateNicknames() {
     // Consulta o banco de dados
     const [rows] = await db.query('SELECT * FROM summerz_characters');
 
-    // ID da guilda (servidor)
+    
     const guildId = '';
 
-    // Discord ID a ser pulado
+    
     const skipDiscordId = '';
 
     
